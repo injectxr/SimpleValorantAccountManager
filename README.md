@@ -14,10 +14,10 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
  
  
 # **Preview**
-<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/4762feb0-5043-4794-b785-4a55356c4388)" width="170">
-<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/fe6b4799-ab50-4f4b-9e1c-6a989db1984a" width="150">
-<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/2cd877b0-e544-4487-8804-0d95f4ed54a2" width="150">
-<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/61664040-e79c-432d-bba2-6b1e813d9fdd" width="150">
+<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/4762feb0-5043-4794-b785-4a55356c4388)" width="220">
+<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/fe6b4799-ab50-4f4b-9e1c-6a989db1984a" width="200">
+<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/2cd877b0-e544-4487-8804-0d95f4ed54a2" width="200">
+<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/61664040-e79c-432d-bba2-6b1e813d9fdd" width="200">
 
 
 </br>
