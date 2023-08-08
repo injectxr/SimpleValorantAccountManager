@@ -19,40 +19,40 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 
 ## **設定**　
 
-	RiotClientの場所を設定します
-	初期値は(C:\Riot Games\Riot Client\RiotClientServices.exe)に設定されています
-	RiotClientが起動してからpyautoguiが起動するまでの待機時間を指定できます
-	defaultの値にリセットできます
+RiotClientの場所を設定します<br>
+初期値は(C:\Riot Games\Riot Client\RiotClientServices.exe)に設定されています<br>
+RiotClientが起動してからpyautoguiが起動するまでの待機時間を指定できます<br>
+defaultの値にリセットできます<br>
  
  
 ## **アカウント追加**
 
-	アカウントを追加します
-	必要な情報はID TAGLINE ( # は必要ありません) LoginID Passwordです
+アカウントを追加します<br>
+必要な情報はID TAGLINE ( # は必要ありません) LoginID Passwordです<br>
  
 ## **ランク更新**
 
-	ID TAGLINEからValorantAPIを使用して現在表示されているランクと違う場合更新します
-	登録されているアカウントが多い場合、本ツールはフリーズする場合がありますが待てば治ります
+ID TAGLINEからValorantAPIを使用して現在表示されているランクと違う場合更新します<br>
+登録されているアカウントが多い場合、本ツールはフリーズする場合がありますが待てば治ります<br>
 
 
 ## **スクロールページ**
 
-	CSVに登録されているデータをもとに登録されているアカウントを表示します
+CSVに登録されているデータをもとに登録されているアカウントを表示します<br>
   
-	起動ボタン
-  
-		登録されているLoginID PassewordをもとにRiotClientを起動します
-		pyautogui を使ってマウスカーソルの移動とID Passの入力をします
+### **起動ボタン**
+登録されているLoginID PassewordをもとにRiotClientを起動します
+pyautogui を使ってマウスカーソルの移動とID Passの入力をします
 
-	編集ボタン
-		編集ウィンドウ
-			登録されている情報を編集できるようにしました
-		ゴミ箱ボタン
-			列を削除します
+#### **編集ボタン**
+##### 編集ウィンドウ
+登録されている情報を編集できるようにしました
+##### ゴミ箱ボタン
+列を削除します
+
 ## **アカウントソート**
 
-	CSVに登録されているアカウントをランク順に並び替えます。
+CSVに登録されているアカウントをランク順に並び替えます。
 
 
 
