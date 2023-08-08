@@ -10,7 +10,7 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 <img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/cccd93b7-4e0f-463c-b069-ac055209a6f0" width="500">
 
 ## **Download**
-[SimpleValorantAccountManager](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v1.0.0)
+[ValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v1.0.0)
  
  
 # **Preview**
