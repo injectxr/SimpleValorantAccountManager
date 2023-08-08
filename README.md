@@ -1,5 +1,4 @@
-
-![79949b567be0bad04d48bddb7d26a59f](https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/669baa95-bd78-402e-9d18-45efcbf978b6)
+<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/669baa95-bd78-402e-9d18-45efcbf978b6" width="190">
 
 
 <p align="center">
