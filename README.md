@@ -1,8 +1,16 @@
 # SimpleValorantAccountManager
 
 v 1.0.0　Release
-
+<p align="center">
+    <a href="s">
+        <img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/f50d1fd9-404f-4edf-872d-6b7a6be6bc58" alt="Logo" width="160" height="160">
+    </a>
+<h5 align="center"> VALORANT rank yoinker</h5>
 この説明はChatGPTを利用して生成されたものです。<br>
+
+![AklsdSfj_400x400]()
+
+
 
 AccountManager(以下本ツール)は Valorantのアカウントを管理およびランクを追跡するためのアプリケーションです。 <br>
 新しいアカウントの登録、ランクの更新、Riot クライアントの起動とアカウントの削除のためのボタンを備えたスクロール可能なリストにアカウントを表示する機能が含まれています。<br>
