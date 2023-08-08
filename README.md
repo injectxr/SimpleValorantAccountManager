@@ -6,7 +6,7 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 
 ![3b4f590abf9231fd190c61a2d9f9def8](https://github.com/injectxr/ValorantAccountManager/assets/90289410/bc14f787-6f6c-4222-a805-b29290393baa)
 
-#**注意事項**
+## **注意事項**
 
 	本ツールを使用してのアカウント停止や制限には一切の責任を負いません。	(何も悪いことはしていないけど。。。)
 	また本ツールはRiotgames.comから承認されたプログラムではありません。
@@ -15,7 +15,7 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 
 
 
-設定　
+## **設定**　
 
 	RiotClientの場所を設定します
 	初期値は(C:\Riot Games\Riot Client\RiotClientServices.exe)に設定されています
