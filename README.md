@@ -22,9 +22,10 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 
 </br>
 ## **Contact**
+</br>
 [Twitter](https://twitter.com/injectxr)
 [Discord](https://discord.gg/bqy2hdbhC5)
-
+</br>
 
 ## **Acknowledgem**
 ・Original Valorant API by [Henrik-3](https://github.com/Henrik-3)
