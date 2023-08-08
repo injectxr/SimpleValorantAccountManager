@@ -1,4 +1,7 @@
 
+![79949b567be0bad04d48bddb7d26a59f](https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/669baa95-bd78-402e-9d18-45efcbf978b6)
+
+
 <p align="center">
     <a href="s">
         <img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/f50d1fd9-404f-4edf-872d-6b7a6be6bc58" alt="Logo" width="160" height="160">
