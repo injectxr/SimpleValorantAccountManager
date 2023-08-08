@@ -8,8 +8,8 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 新しいアカウントの登録、ランクの更新、Riot クライアントの起動とアカウントの削除のためのボタンを備えたスクロール可能なリストにアカウントを表示する機能が含まれています。
 <img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/cccd93b7-4e0f-463c-b069-ac055209a6f0" width="500">
 
-
-
+## **Download**
+[Download](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v1.0.0)
  
  
 # **Preview**
