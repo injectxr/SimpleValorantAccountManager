@@ -5,10 +5,10 @@ v 1.0.0　Release
     <a href="s">
         <img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/f50d1fd9-404f-4edf-872d-6b7a6be6bc58" alt="Logo" width="160" height="160">
     </a>
-<h5 align="center"> VALORANT rank yoinker</h5>
-この説明はChatGPTを利用して生成されたものです。<br>
+<h5 align="center"> SimpleValorantAccountManager</h5>
 
-![AklsdSfj_400x400]()
+    
+この説明はChatGPTを利用して生成されたものです。<br>
 
 
 
