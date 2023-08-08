@@ -1,4 +1,5 @@
-# ValorantAccountManager
+# SimpleValorantAccountManager
+
 v 1.0.0　Release
 
 この説明はChatGPTを利用して生成されたものです。
@@ -8,12 +9,6 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 
 ![3b4f590abf9231fd190c61a2d9f9def8](https://github.com/injectxr/ValorantAccountManager/assets/90289410/bc14f787-6f6c-4222-a805-b29290393baa)
 
-# **注意事項**
-
-本ツールを使用してのアカウント停止や制限には一切の責任を負いません。	(何も悪いことはしていないけど。。。)</br>
-また本ツールは[Riotgames.com](https://www.riotgames.com/ja)から承認されたプログラムではありません。</br>
-本ツールは一切のデータ収集をしていません。</br>
-収益化やデータ収集を目的としたプログラムではありません。</br>
 
 
 
@@ -54,6 +49,12 @@ pyautogui を使ってマウスカーソルの移動とID Passの入力をしま
 
 CSVに登録されているアカウントをランク順に並び替えます。
 
+# **注意事項**
+
+本ツールを使用してのアカウント停止や制限には一切の責任を負いません。	(何も悪いことはしていないけど。。。)</br>
+このプロジェクトは、Riot Games と提携、認可、承認されておらず、すべての関連資産は Riot Games, Inc. の商標または登録商標です。</br>
+本ツールは一切のデータ収集をしていません。</br>
+収益化やデータ収集を目的としたプログラムではありません。</br>
 
 
 mao 
