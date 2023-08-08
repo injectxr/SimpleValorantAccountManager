@@ -15,7 +15,9 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
  
 # **Preview**
 ![019db754a6223e831d040907a5ec6582](https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/20505c68-9822-4df6-bc73-da50d2babd32)
-![bbb36714146559059d97115ace89c1f8](https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/98315a3c-0ae9-46bc-ba95-013e76c
+
+![242998e666600db36dd0e6c20a8c445b](https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/90707b23-6cab-401b-a3d2-da5e3b53f077)
+
 ![242998e666600db36dd0e6c20a8c445b](https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/2cd877b0-e544-4487-8804-0d95f4ed54a2)
 76020)
 
