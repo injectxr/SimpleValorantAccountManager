@@ -23,8 +23,6 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 </br>
 
 ## **Contact**
-
-</br>
 [Twitter](https://twitter.com/injectxr)
 [Discord](https://discord.gg/bqy2hdbhC5)
 </br>
