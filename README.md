@@ -31,7 +31,8 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 	ID TAGLINEからValorantAPIを使用して現在表示されているランクと違う場合更新します
 	登録されているアカウントが多い場合、本ツールはフリーズする場合がありますが待てば治ります
 
-  
+  ![3b4f590abf9231fd190c61a2d9f9def8](https://github.com/injectxr/ValorantAccountManager/assets/90289410/bc14f787-6f6c-4222-a805-b29290393baa)
+
 スクロールページ
 
 	CSVに登録されているデータをもとに登録されているアカウントを表示します
