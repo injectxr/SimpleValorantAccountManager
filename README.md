@@ -1,4 +1,4 @@
-<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/669baa95-bd78-402e-9d18-45efcbf978b6" width="1000">
+<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/669baa95-bd78-402e-9d18-45efcbf978b6" width="4000">
 
 
 <p align="center">
