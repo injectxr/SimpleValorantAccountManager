@@ -25,10 +25,8 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 ・Original Valorant API by [Henrik-3](https://github.com/Henrik-3)
 ## **Disclaimer**
 
-本ツールを使用してのアカウント停止や制限には一切の責任を負いません。	(何も悪いことはしていないけど。。。)</br>
-このプロジェクトは、Riot Games と提携、認可、承認されておらず、すべての関連資産は Riot Games, Inc. の商標または登録商標です。</br>
-本ツールは一切のデータ収集をしていません。</br>
-収益化やデータ収集を目的としたプログラムではありません。</br>
+THIS PROJECT IS NOT ASSOCIATED OR ENDORSED BY RIOT GAMES. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
+Whilst effort has been made to abide by Riot's API rules; you acknowledge that use of this software is done so at your own risk.
 
 
 mao 
