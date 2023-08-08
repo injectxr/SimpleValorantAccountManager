@@ -8,10 +8,8 @@
 
 v 1.0.0　Release
 
-この説明はChatGPTを利用して生成されたものです。<br>
-
 SimpleValorantAccountManager(以下本ツール)は Valorantのアカウントを管理およびランクを追跡するためのアプリケーションです。 <br>
-新しいアカウントの登録、ランクの更新、Riot クライアントの起動とアカウントの削除のためのボタンを備えたスクロール可能なリストにアカウントを表示する機能が含まれています。<br>
+新しいアカウントの登録、登録されているアカウントのランクの更新、Riotクライアントの起動から自動ログインとアカウントの削除のためのボタンを備えたスクロール可能なリストにアカウントを表示する機能が含まれています。<br>
 <br>
 <div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/4e413ff5-3df8-4c91-af99-6e36e0360758" width="1500"></div>
 
