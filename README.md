@@ -17,8 +17,6 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 
 ## **Acknowledgem**
 ・Original Valorant API by [Henrik-3](https://github.com/Henrik-3)
-・
-・
 ## **注意事項**
 
 本ツールを使用してのアカウント停止や制限には一切の責任を負いません。	(何も悪いことはしていないけど。。。)</br>
