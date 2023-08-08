@@ -7,9 +7,11 @@ v 1.0.0　Release
 AccountManager(以下本ツール)は Valorantのアカウントを管理およびランクを追跡するためのアプリケーションです。 
 新しいアカウントの登録、ランクの更新、Riot クライアントの起動とアカウントの削除のためのボタンを備えたスクロール可能なリストにアカウントを表示する機能が含まれています。
 
-![3b4f590abf9231fd190c61a2d9f9def8](https://github.com/injectxr/ValorantAccountManager/assets/90289410/bc14f787-6f6c-4222-a805-b29290393baa)
+![Inked3b4f590abf9231fd190c61a2d9f9def8](https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/cccd93b7-4e0f-463c-b069-ac055209a6f0)
 
 
+
+![Inked242998e666600db36dd0e6c20a8c445b](https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/a9a01d03-4dd3-441c-944c-4fdc9ecfe51d)
 
  
  
