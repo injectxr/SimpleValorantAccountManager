@@ -10,46 +10,16 @@ AccountManager(以下本ツール)は Valorantのアカウントを管理およ�
 ![3b4f590abf9231fd190c61a2d9f9def8](https://github.com/injectxr/ValorantAccountManager/assets/90289410/bc14f787-6f6c-4222-a805-b29290393baa)
 
 
-
-
-# **設定**　
-
-RiotClientの場所を設定します<br>
-初期値は(C:\Riot Games\Riot Client\RiotClientServices.exe)に設定されています<br>
-RiotClientが起動してからpyautoguiが起動するまでの待機時間を指定できます<br>
-defaultの値にリセットできます<br>
  
  
-# **アカウント追加**
-
-アカウントを追加します<br>
-必要な情報はID TAGLINE ( # は必要ありません) LoginID Passwordです<br>
- 
-# **ランク更新**
-
-ID TAGLINEからValorantAPIを使用して現在表示されているランクと違う場合更新します<br>
-登録されているアカウントが多い場合、本ツールはフリーズする場合がありますが待てば治ります<br>
+# **Preview**
 
 
-# **スクロールページ**
-
-CSVに登録されているデータをもとに登録されているアカウントを表示します<br>
-  
-## **起動ボタン**
-登録されているLoginID PassewordをもとにRiotClientを起動します
-pyautogui を使ってマウスカーソルの移動とID Passの入力をします
-
-## **編集ボタン**
-## ***編集ウィンドウ***
-登録されている情報を編集できるようにしました
-## ゴミ箱ボタン
-列を削除します
-
-# **アカウントソート**
-
-CSVに登録されているアカウントをランク順に並び替えます。
-
-# **注意事項**
+## **Acknowledgem**
+・
+・
+・
+## **注意事項**
 
 本ツールを使用してのアカウント停止や制限には一切の責任を負いません。	(何も悪いことはしていないけど。。。)</br>
 このプロジェクトは、Riot Games と提携、認可、承認されておらず、すべての関連資産は Riot Games, Inc. の商標または登録商標です。</br>
