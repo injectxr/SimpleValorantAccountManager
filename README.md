@@ -8,7 +8,10 @@
 
 v 1.0.0　Release
 
-SimpleValorantAccountManager(以下本ツール)は Valorantのアカウントを管理およびランクを追跡するためのアプリケーションです。 <br>
+SimpleValorantAccountManager is an application for managing your Valorant account and tracking your rank. <br>
+Includes the ability to display accounts in a scrollable list with buttons for registering new accounts, updating the rank of registered accounts, auto-login from Riot client launch and deleting accounts. <br>
+
+SimpleValorantAccountManagerは Valorantのアカウントを管理およびランクを追跡するためのアプリケーションです。 <br>
 新しいアカウントの登録、登録されているアカウントのランクの更新、Riotクライアントの起動から自動ログインとアカウントの削除のためのボタンを備えたスクロール可能なリストにアカウントを表示する機能が含まれています。<br>
 <br>
 <div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/4e413ff5-3df8-4c91-af99-6e36e0360758" width="1500"></div>
@@ -27,7 +30,7 @@ SimpleValorantAccountManager(以下本ツール)は Valorantのアカウント�
 </br>
 
 ## **Contact**
-[Twitter](https://twitter.com/injectxr)</br>
+[Twitter](https://twitter.com/injectxr)<br>
 [Discord](https://discord.gg/bqy2hdbhC5)
 </br>
 
