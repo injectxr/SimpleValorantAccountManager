@@ -14,7 +14,7 @@ Includes the ability to display accounts in a scrollable list with buttons for r
 SimpleValorantAccountManagerは Valorantのアカウントを管理およびランクを追跡するためのアプリケーションです。 <br>
 新しいアカウントの登録、登録されているアカウントのランクの更新、Riotクライアントの起動から自動ログインとアカウントの削除のためのボタンを備えたスクロール可能なリストにアカウントを表示する機能が含まれています。<br>
 <br>
-<div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/4e413ff5-3df8-4c91-af99-6e36e0360758" width="1500"></div>
+<div style="text-align: center;"><img src="(https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/87d33e85-8d78-4fb2-9b91-5fc1c7b1120c" width="1500"></div>
 
 ## **Download**
 [ValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v1.0.0)
