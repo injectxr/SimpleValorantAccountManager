@@ -7,7 +7,7 @@
 # SimpleValorantAccountManager
 
 v 1.0.0　Release <br>
-v 1.0.1  アカウント名押したらIDコピーできるようにした <br>
+v 1.0.1    アカウント名押したらIDコピーできるようにした <br>
  riotclientがずっとフルスクリーンになってしまう問題を解消 <br>
  フォントを変更 <br>
 
