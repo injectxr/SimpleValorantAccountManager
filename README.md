@@ -14,7 +14,17 @@ SimpleValorantAccountManagerは Valorantのアカウントを管理およびラ�
 <br>
 <div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/8d7dd642-5b56-41ed-8bca-4bfe0bed1470" width="1500"></div>
 
+## Features
 
+**Modern, Easy to Use GUI Where You Can:**
+  - Add as many accounts as you want
+  - Edit or delete them whenever
+  - Import & Export Accounts
+  - Easily Copy Account Credentials To Send Anywhere
+  
+**Everything is locally stored on your device, you can take a look at the code.**
+
+<br/>
 
 
 ## **Download**
