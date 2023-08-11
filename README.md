@@ -33,7 +33,7 @@ SimpleValorantAccountManagerは Valorantのアカウントを管理およびラ�
 </br>
 
 ## **Acknowledgem**
-・Original Valorant API by [Henrik-3](https://github.com/Henrik-3)
+・Original Valorant API by [Henrik-3](https://github.com/Henrik-3) <br>
 ・icon [remixicon]https://remixicon.com/
 ## **Disclaimer**
 
