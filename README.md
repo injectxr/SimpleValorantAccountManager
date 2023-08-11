@@ -6,12 +6,6 @@
 
 # SimpleValorantAccountManager
 
-v 1.0.0　Release <br>
-v 1.0.1    アカウント名押したらIDコピーできるようにした <br>
- riotclientがずっとフルスクリーンになってしまう問題を解消 <br>
- フォントを変更 <br>
-
-
 SimpleValorantAccountManager is an application for managing your Valorant account and tracking your rank. <br>
 Includes the ability to display accounts in a scrollable list with buttons for registering new accounts, updating the rank of registered accounts, auto-login from Riot client launch and deleting accounts. <br>
 
