@@ -9,7 +9,7 @@
 </a>
 </h5>
 </br>
-
+<br>
 # SimpleValorantAccountManager
 <br>
 SimpleValorantAccountManager is an application for managing your Valorant account and tracking your rank. <br>
