@@ -69,7 +69,7 @@ We are positively considering making this program source public, but I would lik
 
 ## **Acknowledgem**
   - Original Valorant API by [Henrik-3](https://github.com/Henrik-3) <br>
-  - icon [remixicon]https://remixicon.com/
+  - icon [remixicon](https://remixicon.com/) <br>
 ## **Disclaimer**
 
 THIS PROJECT IS NOT ASSOCIATED OR ENDORSED BY RIOT GAMES. <br>
