@@ -20,7 +20,7 @@ Includes the ability to display accounts in a scrollable list with buttons for r
 
 ## Features
 
-**Modern, Easy to Use GUI Where You Can:**
+**Simple and Modern, Easy to Use GUI Where You Can:**
   - Add as many accounts as you want
   - Edit or delete them whenever
   - Import & Export Accounts
