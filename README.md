@@ -2,15 +2,18 @@
     <a href="s">
         <img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/f50d1fd9-404f-4edf-872d-6b7a6be6bc58" alt="Logo" width="160" height="160">
     </a>
+<br>
 <h5 align="center"> SimpleValorantAccountManager</h5>
+   <h2 align="center" target="_blank">
+    <img src="https://img.shields.io/github/downloads/injectxr/SimpleValorantAccountManager/total?labelColor=1E1E1E&color=B5C531&style=for-the-badge&logo=data" alt="Download"/>
+  </a>
+</br>
 
 # SimpleValorantAccountManager
-
+<br>
 SimpleValorantAccountManager is an application for managing your Valorant account and tracking your rank. <br>
 Includes the ability to display accounts in a scrollable list with buttons for registering new accounts, updating the rank of registered accounts, auto-login from Riot client launch and deleting accounts. <br>
 
-SimpleValorantAccountManagerは Valorantのアカウントを管理およびランクを追跡するためのアプリケーションです。 <br>
-新しいアカウントの登録、登録されているアカウントのランクの更新、Riotクライアントの起動から自動ログインとアカウントの削除のためのボタンを備えたスクロール可能なリストにアカウントを表示する機能が含まれています。<br>
 <br>
 <div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/8d7dd642-5b56-41ed-8bca-4bfe0bed1470" width="1500"></div>
 
@@ -21,12 +24,30 @@ SimpleValorantAccountManagerは Valorantのアカウントを管理およびラ�
   - Edit or delete them whenever
   - Import & Export Accounts
   - Easily Copy Account Credentials To Send Anywhere
-  
-**Everything is locally stored on your device, you can take a look at the code.**
+  - You can manage your registered accounts by valorant rank　<br>
+<br>
 
-<br/>
+**It's saved in CSV format locally on your device so you can check it.**
 
+## **FAQ**
 
+**Q. Is this software safe?** 
+
+<br>
+As far as the source code is concerned, there is nothing malicious. You can check it yourself or ask someone who knows how if you don't know how. Just get the Riot client and let pyautogui automatically log you in like you always type in yourself.
+</br>
+<br>
+
+**Q. Is my registered account safe?**
+
+<br>
+Yes it is safe. This app is a Tikinker study program.
+This app was distributed to get feedback.
+I don't have the technology to steal accounts, but techs could steal accounts if they wanted to. I don't want to steal people's accounts, and I can't do it because it's too much responsibility for me if the stolen information is detected.
+
+We are positively considering making this program source public, but I would like you to know that you can create a remodeled application that is distributed secondary.
+</br>
+</br>
 ## **Download**
 [ValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v1.0.0)
  
@@ -41,13 +62,13 @@ SimpleValorantAccountManagerは Valorantのアカウントを管理およびラ�
 </br>
 
 ## **Contact**
-[Twitter](https://twitter.com/injectxr)<br>
-[Discord](https://discord.gg/bqy2hdbhC5)
+  - [Twitter](https://twitter.com/injectxr)<br>
+  - [Discord](https://discord.gg/bqy2hdbhC5)
 </br>
 
 ## **Acknowledgem**
-・Original Valorant API by [Henrik-3](https://github.com/Henrik-3) <br>
-・icon [remixicon]https://remixicon.com/
+  - Original Valorant API by [Henrik-3](https://github.com/Henrik-3) <br>
+  - icon [remixicon]https://remixicon.com/
 ## **Disclaimer**
 
 THIS PROJECT IS NOT ASSOCIATED OR ENDORSED BY RIOT GAMES. <br>
