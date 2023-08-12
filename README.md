@@ -5,7 +5,7 @@
 <br>
 <h5 align="center">SimpleValorantAccountManager<br><br>
 <a href="https://github.com/injectxr/SimpleValorantAccountManager/releases" >
-    <img src="https://img.shields.io/github/downloads/injectxr/SimpleValorantAccountManager/total?labelColor=1E1E1E&color=466bff&style=for-the-badge&logo=data" alt="Download"/ >
+    <img src="https://img.shields.io/github/downloads/injectxr/SimpleValorantAccountManager/total?labelColor=1E1E1E&color=466bff&style=for-the-badge&logo=data=" alt="Download"/ >
 </a>
 </h5>
 </br>
