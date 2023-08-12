@@ -3,10 +3,11 @@
         <img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/f50d1fd9-404f-4edf-872d-6b7a6be6bc58" alt="Logo" width="160" height="160">
     </a>
 <br>
-<h5 align="center"> SimpleValorantAccountManager</h5>
-   <h2 align="center" target="_blank">
-    <img src="https://img.shields.io/github/downloads/injectxr/SimpleValorantAccountManager/total?labelColor=1E1E1E&color=B5C531&style=for-the-badge&logo=data" alt="Download"/>
-  </a>
+<h5 align="center">SimpleValorantAccountManager<br><br>
+<a href="https://github.com/injectxr/SimpleValorantAccountManager/releases" >
+    <img src="https://img.shields.io/github/downloads/injectxr/SimpleValorantAccountManager/total?labelColor=1E1E1E&color=466bff&style=for-the-badge&logo=data" alt="Download"/ >
+</a>
+</h5>
 </br>
 
 # SimpleValorantAccountManager
