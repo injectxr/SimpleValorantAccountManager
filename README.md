@@ -86,4 +86,3 @@ you acknowledge that use of this software is done so at your own risk.
 Riot Games およびすべての関連資産は、Riot Games, Inc. の商標または登録商標です。<br>
 Riotの API ルールを遵守するよう努めています。<br>
 あなたは、このソフトウェアの使用があなた自身の責任で行われることを承認します。
-
