@@ -58,9 +58,9 @@ We are positively considering making this program source public, but I would lik
  
 # **Preview**
 
-<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/assets/90289410/4a418bb4-b90b-4a23-93b3-d567d4162526" width="190">
+<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/4a418bb4-b90b-4a23-93b3-d567d4162526" width="190">
 <img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/e0c7da6b-5cf5-4308-82c6-86d9ebc0e4f5" width="190">
-<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/assets/90289410/d883eb31-b187-4424-89ca-ae16fd6f72e4" width="190">
+<img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/d883eb31-b187-4424-89ca-ae16fd6f72e4" width="190">
 <img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/2f8c7a04-ac8d-4992-b5a8-872151ca1ebc" width="190">
 
 
