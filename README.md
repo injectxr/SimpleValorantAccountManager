@@ -17,7 +17,7 @@ The ability to register new accounts, update the rank of registered accounts, se
 Currently only AP region is supported.　<br>
 
 <br>
-<div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/5ad583b8-5502-4676-9d00-6220f68012e3" width="1500"></div>
+<div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/5ad583b8-5502-4676-9d00-6220f68012e3" width="1200"></div>
 
 ## Features
 
