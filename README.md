@@ -53,7 +53,7 @@ We are positively considering making this program source public, but I would lik
 </br>
 </br>
 ## **Download**
-[ValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v1.1.0)
+[SimpleValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v2.0.0)
  
  
 # **Preview**
