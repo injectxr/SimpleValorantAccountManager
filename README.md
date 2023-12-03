@@ -73,6 +73,7 @@ We are positively considering making this program source public, but I would lik
 
 ## **Acknowledgem**
   - Original Valorant API by [Henrik-3](https://github.com/Henrik-3) <br>
+  - valorant store py [link](https://pypi.org/project/valorantstore/)<br>
   - icon [remixicon](https://remixicon.com/) <br>
 ## **Disclaimer**
 
