@@ -12,20 +12,23 @@
  
 # SimpleValorantAccountManager
 <br>
-SimpleValorantAccountManager is an application for managing your Valorant account and tracking your rank. <br>
-Includes the ability to display accounts in a scrollable list with buttons for registering new accounts, updating the rank of registered accounts, auto-login from Riot client launch and deleting accounts. <br>
+SimpleValorantAccountManager is an application for managing multiple accounts.　<br>
+The ability to register new accounts, update the rank of registered accounts, see your current shop, auto-login from Riot client launch, and view accounts in a scrollable list with buttons for deleting accounts. We Included.　<br>
+Currently only AP region is supported.　<br>
 
 <br>
-<div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/8d7dd642-5b56-41ed-8bca-4bfe0bed1470" width="1500"></div>
+<div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/5ad583b8-5502-4676-9d00-6220f68012e3" width="1500"></div>
 
 ## Features
 
 **Simple and Modern, Easy to Use GUI Where You Can:**
   - Add as many accounts as you want
+  - You can check the daily skin shop of the added account
   - Edit or delete them whenever
   - Import & Export Accounts
   - Easily Copy Account Credentials To Send Anywhere
-  - You can manage your registered accounts by valorant rank　<br>
+  - You can manage your registered accounts by valorant rank
+  - All registered account information is managed in csv and saved locally. No need to worry about your account information being leaked　<br>
 <br>
 
 **It's saved in CSV format locally on your device so you can check it.**
