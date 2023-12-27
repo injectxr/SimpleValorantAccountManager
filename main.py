@@ -31,12 +31,6 @@ import time as tm
 
 import cfscrape
 import requests
-#to do
-#すべてのウィンドウをmainウィンドウに埋め込んで切り替え式にする
-#Update時の進行度がわかるプログレスバーをmainウィンドウに上から貼り付け
-#account起動時にapp window非表示に
-#updaterank 語に自動ソート
-
 
 TRACKERGG = "https://tracker.gg/valorant/profile/riot/"
 valorantapiurl = "https://api.henrikdev.xyz/valorant/v1/mmr-history/ap/"
