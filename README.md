@@ -12,45 +12,42 @@
  
 # SimpleValorantAccountManager
 <br>
-SimpleValorantAccountManager is an application for managing multiple accounts.　<br>
-The ability to register new accounts, update the rank of registered accounts, see your current shop, auto-login from Riot client launch, and view accounts in a scrollable list with buttons for deleting accounts. We Included.　<br>
-Currently only AP region is supported.　<br>
+SimpleValorantAccountManager は、複数のVALORANTアカウントを管理するためのアプリケーションです。 <br>
+新しいアカウントの登録、登録済みアカウントのランクの更新、現在のショップの表示、Riot クライアント起動からの自動ログイン、
+アカウント削除ボタン付きのスクロール可能なリストでのアカウントの表示機能。 含まれています。 <br>
+現在、AP リージョンのみがサポートされています。 <br>
 
 <br>
 <div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/5ad583b8-5502-4676-9d00-6220f68012e3" width="900"></div>
 <div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/e0c7da6b-5cf5-4308-82c6-86d9ebc0e4f5" width="900"></div>
 ## Features
 
-**Simple and Modern, Easy to Use GUI Where You Can:**
-  - Add as many accounts as you want
-  - You can check the daily skin shop of the added account
-  - Edit or delete them whenever
-  - Import & Export Accounts
-  - Easily Copy Account Credentials To Send Anywhere
-  - You can manage your registered accounts by valorant rank
-  - All registered account information is managed in csv and saved locally. No need to worry about your account information being leaked　<br>
+**シンプルで使いやすいGUI**
+   - アカウントを好きなだけ追加してvalorantランクごとに管理できます
+   - 追加したアカウントの毎日のスキンショップを確認できます
+   - いつでも編集または削除できます
+   - アカウントのインポートとエクスポート
+   - アカウント認証情報を簡単にコピーしてどこにでも送信できます
+   ・登録したアカウント情報はすべてcsvで管理され、ローカルに保存されます。 アカウント情報が漏洩する心配はありません
 <br>
-
-**It's saved in CSV format locally on your device so you can check it.**
 
 ## **FAQ**
 
-**Q. Is this software safe?** 
+**Q. このソフトウェアは安全ですか?**
 
 <br>
-As far as the source code is concerned, there is nothing malicious. You can check it yourself or ask someone who knows how if you don't know how. Just get the Riot client and let pyautogui automatically log you in like you always type in yourself.
-</br>
+このソフトウェアは、私が自身の学習用として作成したものであり悪意のあるプログラムやウイルスは含まれません。
+ログイン処理についても、pyautoguiでriotclientにマクロ処理で人間のようにログインしていますので不正な処理は行われておりません
 <br>
 
-**Q. Is my registered account safe?**
+**Q. 私の登録アカウントは安全ですか?**
 
 <br>
-Yes it is safe. This app is a Tikinker study program.
-This app was distributed to get feedback.
-I don't have the technology to steal accounts, but techs could steal accounts if they wanted to. I don't want to steal people's accounts, and I can't do it because it's too much responsibility for me if the stolen information is detected.
+はい、安全です。
+このアプリはフィードバックを得るために配布されました。
+私にはアカウントを盗む技術はありませんが、その気になれば技術者はアカウントを盗むことができます。 私は人のアカウントを盗みたくないし、盗まれた情報が見つかったら自分の責任が重すぎるのでそれはできません。
 
-We are positively considering making this program source public, but I would like you to know that you can create a remodeled application that is distributed secondary.
-</br>
+このプログラムのソース公開については前向きに検討しておりますが、改造アプリケーションを作成して二次配布することも可能であることを知っていただきたいと思います。
 </br>
 ## **Download**
 [SimpleValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v2.0.0)
@@ -76,11 +73,6 @@ We are positively considering making this program source public, but I would lik
   - valorant store py [link](https://pypi.org/project/valorantstore/)<br>
   - icon [remixicon](https://remixicon.com/) <br>
 ## **Disclaimer**
-
-THIS PROJECT IS NOT ASSOCIATED OR ENDORSED BY RIOT GAMES. <br>
-Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
-Whilst effort has been made to abide by Riot's API rules.<br>
-you acknowledge that use of this software is done so at your own risk.
 
 このプロジェクトは、Riot Games と提携または承認されていません。<br>
 Riot Games およびすべての関連資産は、Riot Games, Inc. の商標または登録商標です。<br>
