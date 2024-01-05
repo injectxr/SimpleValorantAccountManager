@@ -12,14 +12,13 @@
  
 # SimpleValorantAccountManager
 <br>
-SimpleValorantAccountManager は、複数のVALORANTアカウントを管理するためのアプリケーションです。 <br>
-新しいアカウントの登録、登録済みアカウントのランクの更新、現在のショップの表示、Riot クライアント起動からの自動ログイン、
-アカウント削除ボタン付きのスクロール可能なリストでのアカウントの表示機能。 含まれています。 <br>
-現在、AP リージョンのみがサポートされています。 <br>
+SimpleValorantAccountManager は、複数のVALORANTアカウントを管理するためのアプリケーションです。<br>
+現在、APリージョンのみがサポートされています。 <br>
 
 <br>
 <div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/5ad583b8-5502-4676-9d00-6220f68012e3" width="900"></div>
 <div style="text-align: center;"><img src="https://github.com/injectxr/SimpleValorantAccountManager/assets/90289410/e0c7da6b-5cf5-4308-82c6-86d9ebc0e4f5" width="900"></div>
+
 ## Features
 
 **シンプルで使いやすいGUI**
