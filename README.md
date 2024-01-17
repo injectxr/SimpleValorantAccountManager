@@ -46,7 +46,7 @@ SimpleValorantAccountManager は、複数のVALORANTアカウントを管理す�
 </br>
 
 ## **Download**
-[SimpleValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v2.0.1)
+[SimpleValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v2.0.0)
  
  
 # **Preview**
