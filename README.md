@@ -35,6 +35,7 @@ SimpleValorantAccountManager は、複数のVALORANTアカウントを管理す�
 ソースコードも公開していますので、知識がある人が見ればアカウントを盗む記述がないことがわかると思います。
 <br>
 <br>
+
 **Q. このソフトウェアは安全ですか?**
 
 <br>
@@ -43,8 +44,9 @@ SimpleValorantAccountManager は、複数のVALORANTアカウントを管理す�
 ただし、ここではなく別の場所から exe を取得した場合は、ウイルスが含まれている可能性があります。
 
 </br>
+
 ## **Download**
-[SimpleValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v2.0.0)
+[SimpleValorantAccountManager.zip](https://github.com/injectxr/SimpleValorantAccountManager/releases/tag/v2.0.1)
  
  
 # **Preview**
