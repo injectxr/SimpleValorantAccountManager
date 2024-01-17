@@ -28,16 +28,14 @@ import pickle
 from os import path, getcwd, remove, mkdir
 from time import time
 import time as tm
-
 import cfscrape
-import requests
 
 TRACKERGG = "https://tracker.gg/valorant/profile/riot/"
 valorantapiurl = "https://api.henrikdev.xyz/valorant/v1/mmr-history/ap/"
 FONT_TYPE = "Meiryo UI"
 filename = 'valorant-rank.csv'
 config = 'Config.json'
-nowversion = "v 2.0.0 "
+nowversion = "v 2.0.1 "
 twitterid = "https://twitter.com/i/user/825939612690378752"
 discord = "https://discord.gg/bqy2hdbhC5"
 git = "https://github.com/injectxr/SimpleValorantAccountManager"
@@ -50,6 +48,8 @@ width = 500
 hight = 320
 states = "account_state"
 folder_path = 'system_png/pickle'
+g_linecoloer = '#DCD3C9'
+line_color = "#4b0082"
 
 def fileopen():
     if not os.path.exists(filename):
@@ -65,7 +65,7 @@ def fileopen():
     with open(filename, encoding='utf-8', newline='') as f:
         data = csv.reader(f)
         result = [line for line in data]
-    
+        print(result)
     return result
 class App(customtkinter.CTk):
     def __init__(self, master=None):
@@ -80,7 +80,7 @@ class App(customtkinter.CTk):
         # フォームサイズ設定
         global username 
         self.geometry(f"{width}x{hight}")
-        self.title(f"SimpleValorantAccountManager")
+        self.title(f"Manager")
         lists = fileopen()
         # self.wm_overrideredirect(True)
         self.attributes("-topmost", True)
@@ -99,13 +99,15 @@ class App(customtkinter.CTk):
         self.init_widget()
         self.side_widget()
         self.window_drag()
-        self.Refresh_account()
+        
+        Refresh_account = threading.Thread(target=self.Refresh_account)
+        Refresh_account.start()
         self.stateui()
         
-        self.Register_window = None
-        self.Edit_window     = None
-        self.Setting_window  = None
-        self.AccountEdit_Window  = None
+        self.Register_window         = None
+        self.Edit_window             = None
+        self.Setting_window          = None
+        self.AccountEdit_Window      = None
         self.copy_Window  = None
     def init(self):
         if not os.path.exists(folder_path):
@@ -123,16 +125,17 @@ class App(customtkinter.CTk):
         print("backgroundframe")
         fg = "#242424"
         h_color = "#0F0F0F"
-        line_color ="#DCD3C9"
+        line_color = g_linecoloer
         sideframe_color = "#2b2b2b"
         text_color = "#f2efec"
         self.background_frame= customtkinter.CTkFrame(self, width=500, height=320,corner_radius=0,fg_color=fg,border_width=1,border_color=line_color)
         self.background_frame.place(x=0,y=0)
+        
     def main_widget(self):
         print("main_widget")
         fg = "#242424"
         h_color = "#0F0F0F"
-        line_color ="#DCD3C9"
+        line_color = g_linecoloer
         sideframe_color = "#2b2b2b"
         text_color = "#f2efec"
         fgsub = "#242424"
@@ -167,6 +170,8 @@ class App(customtkinter.CTk):
             y = event.y_root - self.start_y
             self.geometry(f"{width}x{hight}+{x}+{y}")    
     def init_widget(self):
+        line_color = g_linecoloer
+        
         self.scrollable_label_button_frame = ScrollableLabelButtonFrame(master=self.main_frame, width=290,height=265,
                                                                         command=self.label_button_frame_event1,
                                                                         command2=self.label_button_frame_event2,
@@ -177,7 +182,7 @@ class App(customtkinter.CTk):
         customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
         fg = "#242424"
         h_color = "#0F0F0F"
-        line_color ="#DCD3C9"
+        line_color = g_linecoloer
         sideframe_color = "#2b2b2b"
         text_color = "#f2efec"
         
@@ -185,7 +190,7 @@ class App(customtkinter.CTk):
         self.sidebar_frame2 = customtkinter.CTkFrame(self, width=172, height=318,corner_radius=0,fg_color=sideframe_color,)
         self.sidebar_frame2.grid(row=10, column=0, rowspan=10, sticky="nsew",)
         self.sidebar_frame2.place(x=2,y=1)
-        self.active_state_frame = customtkinter.CTkFrame(self, width=2, height=34,corner_radius=0,fg_color="#ffffff",)
+        self.active_state_frame = customtkinter.CTkFrame(self, width=2, height=34,corner_radius=0,fg_color="#4b0082",)
         
         
         # current_dir = os.path.dirname(os.path.abspath(__file__))  
@@ -276,11 +281,13 @@ class App(customtkinter.CTk):
     def sortbylist_down(self):
         lists = fileopen()
         new = sorted(lists,key=valorantrank_sort_down)
+        print(new)
         Savelist(new)    
         app.Refresh_account()  
     def sortbylist_up(self):
         lists = fileopen()
         new = sorted(lists,key=valorantrank_sort_up)
+        print(new)
         Savelist(new)
         app.Refresh_account()  
     def get_state(self):
@@ -298,7 +305,9 @@ class App(customtkinter.CTk):
         Judgment  = button_clicked_yesno(i,"を 起動しますか？")
         if Judgment == "yes":
             lists = fileopen()
-            launch_riot_client(lists[i+1][3],lists[i+1][4])
+            flg = close_existing_riot_client()
+            launch_riot_client(lists[i+1][3],lists[i+1][4],flg)
+            
             self.deiconify()
         else:
             self.deiconify()   
@@ -669,9 +678,11 @@ class App(customtkinter.CTk):
             self.label0 = customtkinter.CTkLabel(master=frame,text=""+lists[i+1][1]+"#"+lists[i+1][2], font=self.fonts)
             self.label0.place(x=42, y=79)
             
+            self.button6 = customtkinter.CTkButton(master=frame,width=1, height=1,fg_color=fg,text="",command=self.button_copy1,image=customtkinter.CTkImage(Image.open("system_png//clipboard.png"),size=(15,15)),hover_color=frame_bg)
+            self.button6.place(x=218, y=81)
             self.button7 = customtkinter.CTkButton(master=frame,width=1, height=1,corner_radius=25,fg_color="#242424",text="",command=self.delete,image=customtkinter.CTkImage(Image.open("system_png//delete.png"),size=(15,15)),hover_color=h_color)
             self.button7.place(x=242, y=81)
-            
+
             self.button8 = customtkinter.CTkButton(master=frame,width=1, height=1,corner_radius=25,fg_color="#242424",text="",command=self.Refresh,image=customtkinter.CTkImage(Image.open("system_png//refresh.png"),size=(15,15)),hover_color=h_color)
             self.button8.place(x=266, y=81)
             self.button9 = customtkinter.CTkButton(master=frame,width=1, height=1,corner_radius=25,fg_color="#242424",text="",command=self.Edit,image=customtkinter.CTkImage(Image.open("system_png//edit.png"),size=(15,15)),hover_color=h_color)
@@ -724,9 +735,9 @@ class App(customtkinter.CTk):
                             new_width = int(original_aspect_ratio * new_height)
                         
                         
-                        if new_width >= 125:
-                            new_height = 23
-                            new_width = int(original_aspect_ratio * new_height)
+                        if new_width >= 119:
+                            new_width = 119
+                            new_height = int(new_width / original_aspect_ratio)
                         
                         
                         #print(i,":",new_width,new_height)
@@ -839,7 +850,12 @@ class App(customtkinter.CTk):
                 deletelist(i)  
                 app.deiconify()
             else:
-                app.deiconify()       
+                app.deiconify() 
+        def button_copy1(self):
+            i = g_edit_num
+            lists = fileopen()
+            text = lists[i+1][1] + "#" + lists[i+1][2]
+            pyperclip.copy(text)      
 class ScrollableLabelButtonFrame(customtkinter.CTkScrollableFrame):
     def __init__(self, master, command=None, command2 = None ,command3=None ,**kwargs):
         super().__init__(master, **kwargs)
@@ -911,14 +927,14 @@ class ScrollableLabelButtonFrame(customtkinter.CTkScrollableFrame):
                 self.button_list.remove(button)
                 return                         
 def valorantrank_sort_up(arr):
-    sizes = {'now rank': 0, 'Unranked': 1, 'Iron 1': 2, 'Iron 2': 3, 'Iron 3': 4, 'Bronze 1': 5, 'Bronze 2': 6,
-             'Bronze 3': 7, 'Silver 1': 8, 'Silver 2': 9, 'Silver 3': 10, 'Gold 1': 11, 'Gold 2': 12, 'Gold 3': 13,
-             'Platinum 1': 14, 'Platinum 2': 15, 'Platinum 3': 16, 'Diamond 1': 17, 'Diamond 2': 18, 'Diamond 3': 19,
-             'Ascendant 1': 20, 'Ascendant 2': 21, 'Ascendant 3': 22, 'Immortal 1': 23, 'Immortal 2': 24,
-             'Immortal 3': 25, 'Radiant': 26, '': 27}
+    sizes = {'now rank': 0, '\ufeffnow rank': 1, 'Unranked': 2, 'Iron 1': 3, 'Iron 2': 4, 'Iron 3': 5, 'Bronze 1': 6, 'Bronze 2': 7,
+             'Bronze 3': 8, 'Silver 1': 9, 'Silver 2': 10, 'Silver 3': 11, 'Gold 1': 12, 'Gold 2': 13, 'Gold 3': 14,
+             'Platinum 1': 15, 'Platinum 2': 16, 'Platinum 3': 17, 'Diamond 1': 18, 'Diamond 2': 19, 'Diamond 3': 20,
+             'Ascendant 1': 21, 'Ascendant 2': 22, 'Ascendant 3': 23, 'Immortal 1': 24, 'Immortal 2': 25,
+             'Immortal 3': 26, 'Radiant': 27, '': 28}
     return sizes.get(arr[0], float('inf'))
 def valorantrank_sort_down(arr):
-    sizes = {'now rank': 0, 'Iron 1': 25, 'Iron 2': 24, 'Iron 3': 23, 'Bronze 1': 22, 'Bronze 2': 21, 'Bronze 3': 20,
+    sizes = {'now rank': 0, '\ufeffnow rank': 1, 'Iron 1': 25, 'Iron 2': 24, 'Iron 3': 23, 'Bronze 1': 22, 'Bronze 2': 21, 'Bronze 3': 20,
              'Silver 1': 19, 'Silver 2': 18, 'Silver 3': 17, 'Gold 1': 16, 'Gold 2': 15, 'Gold 3': 14,
              'Platinum 1': 13, 'Platinum 2': 12, 'Platinum 3': 11, 'Diamond 1': 10, 'Diamond 2': 9, 'Diamond 3': 8,
              'Ascendant 1': 7, 'Ascendant 2': 6, 'Ascendant 3': 5, 'Immortal 1': 4, 'Immortal 2': 3, 'Immortal 3': 2,
@@ -991,12 +1007,12 @@ def up_rank(lists,i):
             lists[i + 1][0] = rank       
 def finish_update(self):
         ok_message_box("Alert", "Finish")                    
-def launch_riot_client(username,password):
+def launch_riot_client(username,password,flg):
     lists = fileopen()
     riot_client_path = lists[0][5]
     try:
         subprocess.Popen(riot_client_path)
-        input_credentials_to_riot_client(username,password)      
+        input_credentials_to_riot_client(username,password,flg)      
     except FileNotFoundError:
         button_error("起動エラー","Riotクライアントが見つかりませんでした。Settingでパスを確認してください。")          
 def button_error(error,errormessage):
@@ -1026,9 +1042,14 @@ def deletelist(i):
     app.Refresh_account()  
 def Savelist(lists):
     df = pd.DataFrame(lists)
+    print(df)
     df.to_csv(filename,header=False, index=False)    
-def input_credentials_to_riot_client(username, password):
+
+
+
+def input_credentials_to_riot_client(username, password,flg):
     print("input_credentials_to_riot_client()")
+    
     x,y = pyautogui.position()
     lists = fileopen()
     launch_second = lists[0][4]
@@ -1042,7 +1063,7 @@ def input_credentials_to_riot_client(username, password):
         #Riotクライアントのプロセスが起動しているか確認
         process_name = "RiotClientServices.exe"
         process_check_cmd = f'tasklist /FI "IMAGENAME eq {process_name}" /FO CSV /NH'
-        output = subprocess.check_output(process_check_cmd, shell=True).decode()
+        output = subprocess.check_output(process_check_cmd, shell=True, encoding="cp932")
 
         if process_name in output:
             # Riotクライアントのウィンドウを取得
@@ -1050,37 +1071,41 @@ def input_credentials_to_riot_client(username, password):
             if riot_client_windows:
                 riot_client_window = riot_client_windows[0]
                 #Riotクライアントのウィンドウがアクティブになるまで待機
-
-                #Riotクライアントのウィンドウが最前面に表示されるようにする
-                riot_client_window.maximize()
-                tm.sleep(int(launch_second))
-                
+                if flg:
+                    tm.sleep(int(launch_second)+3)
+                else:
+                    tm.sleep(int(launch_second))
                 # ユーザー名とパスワードのテキストボックスの位置を取得
+                                # ユーザー名とパスワードを入力
                 username_box = (riot_client_window.left + 155, riot_client_window.top + 250)
-                password_box = (riot_client_window.left + 155, riot_client_window.top + 340)
-
-                # ユーザー名とパスワードを入力
                 pyautogui.click(username_box)
-                pyautogui.typewrite(username)
-                pyautogui.click(password_box)
-                pyautogui.typewrite(password)
-
-                # ログインボタンの位置を取得
-                login_button = (riot_client_window.left + 220, riot_client_window.top + 700)
-                # ログインボタンをクリック
-                pyautogui.click(login_button)
+                pyautogui.moveTo(x,y)
+                
+                pyautogui.write(username)
+                pyautogui.press('tab')
+                pyautogui.write(password)
+                pyautogui.press('enter')
+                
                 if int(lists[0][2]) == 1:
                     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                     stdout, stderr = process.communicate()
                 
-                #ウィンドウを元のサイズに戻す
-                riot_client_window.restore()
+
                 if int(lists[0][1]) == 1:
                     sys.exit()
                 
-                pyautogui.moveTo(x,y)
                 break
-        tm.sleep(1)       
+        tm.sleep(1)
+    
+def close_existing_riot_client():
+    process_name = "RiotClientServices.exe"
+    process_check_cmd = f'taskkill /F /IM {process_name}'
+    try:
+        subprocess.run(process_check_cmd, shell=True, check=True)
+        return True
+    except subprocess.CalledProcessError:
+        return False
+
 def mask_text(txt):
     masked_txt = '*' * len(txt)
     return masked_txt     
