@@ -68,6 +68,22 @@ SimpleValorantAccountManager は、複数のVALORANTアカウントを管理す�
   - Original Valorant API by [Henrik-3](https://github.com/Henrik-3) <br>
   - valorant store py [link](https://pypi.org/project/valorantstore/)<br>
   - icon [remixicon](https://remixicon.com/) <br>
+
+## Installation
+  - Python3.10.5
+  - clone
+```bash
+git clone https://github.com/injectxr/SimpleValorantAccountManager.git
+```
+  - Install requirements
+```bash
+pip install requirements.txt
+```
+  - Run
+```bash
+python main.py
+```
+
 ## **Disclaimer**
 
 このプロジェクトは、Riot Games と提携または承認されていません。<br>
